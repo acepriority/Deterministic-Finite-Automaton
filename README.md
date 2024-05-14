@@ -50,6 +50,6 @@ input_string = '01001101'
 Test().test(input_string)
 ```
 
-In this example, the DFA is defined with states A, B, and C, an alphabet consisting of 0 and 1, a start state A, accept states {C}, and a transition function that defines state transitions based on input symbols. The input string 01001101 is tested against this DFA to determine if it is accepted.
+In this example, the DFA accepts all strings ending in `01` that is `[01]*01` and it is defined with states A, B, and C, an alphabet consisting of 0 and 1, a start state A, accept states {C}, and a transition function that defines state transitions based on input symbols. The input string 01001101 is tested against this DFA to determine if it is accepted.
 
 To run the code, simply execute the Python script. The output will indicate whether the input string is accepted or rejected by the DFA.
